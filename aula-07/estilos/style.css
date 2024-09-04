@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    height: inherit;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.problema_1:hover.problema_2{
+    display: none;
+}
+
