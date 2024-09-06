@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felippe Stein">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/icons8-estrela-48.png">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <title>Aula08</title>
+</head>
+<body>
+    <h1>Trabalhando com Imagens</h1> <br>
+    <hr>
+    <figure> <br>
+        <img src="./images/CRVascodaGama.png" width="500px" alt="Imagem do escudo do Vasco da Gama">
+        <figcaption>Imagem do esudo do maior time do Brasil</figcaption>
+    </figure> <br>
+    <hr>
+    <figure> <br>
+        <img src="./images/campinho.jpg" width="500px" alt="Imagem do portal de Domingos Martins">
+        <figcaption>Imagem de Domingos Martins</figcaption>
+    </figure> <br>
+    <hr>
+    <figure> <br>
+        <img src="./images/lego-2539844_1280.jpg" width="100%" alt="Lego de Star Wars">
+        <figcaption>Legos de Star Wars</figcaption>
+    </figure>
+
+    <picture>
+        <source media="(max-width: 767px)" srcset="CRVascodaGama.png">
+        <source media="(min-width: 768px)" srcset="CRVascodaGama.png">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 767px)" srcset="campinho.jpg">
+        <source media="(min-width: 768px)" srcset="campinho.jpg">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 767px)" srcset="lego-2539844_1280.jpg">
+        <source media="(min-width: 768px)" srcset="lego-2539844_1280.jpg">
+    </picture>
+
+</body>
+</html>
